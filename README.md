@@ -21,3 +21,5 @@ Liu Guobang
 Matriculation ID : G2505360C    
 Email : guobang001@e.ntu.edu.sg    
 contribution ：25%
+
+The audio files have been uploaded to Recorded presentation on GitHub; final.m4a is the final merged version.
