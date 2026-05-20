@@ -1,0 +1,885 @@
+{
+  "summary": {
+    "total_trades": 28,
+    "cftc_compliant": 3,
+    "cftc_noncompliant": 22,
+    "cftc_conditional": 2,
+    "cftc_not_applicable": 1,
+    "emir_compliant": 1,
+    "emir_noncompliant": 24,
+    "emir_not_applicable": 3,
+    "violation_type_counts": {
+      "INVALID_LEI_OTHER": 24,
+      "UPI_NOT_FOUND": 24,
+      "MISSING_COLLATERAL_CODE": 13,
+      "MISSING_INITIAL_MARGIN": 13,
+      "MISSING_VARIATION_MARGIN": 13,
+      "INVALID_LEI_REPORTING": 22,
+      "MISSING_OR_INVALID_UTI": 2,
+      "INVALID_NOTIONAL": 4
+    }
+  },
+  "details": [
+    {
+      "trade_id": "T001",
+      "cftc": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_OTHER: LEI checksum failed (ISO 7064 MOD 97-10)"
+        ],
+        "special_note": null
+      },
+      "emir": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_OTHER: LEI checksum failed (ISO 7064 MOD 97-10)"
+        ],
+        "special_note": null
+      },
+      "upi_info": {
+        "status": "FOUND",
+        "matched_template": "Rates.Swap.Cross_Currency_Fixed_Float.UPI.V1",
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "Rates",
+        "instrument_type": "Swap",
+        "use_case": "Fixed_Float",
+        "platform": "SEF",
+        "cleared": true
+      }
+    },
+    {
+      "trade_id": "T002",
+      "cftc": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_OTHER: LEI checksum failed (ISO 7064 MOD 97-10)"
+        ],
+        "special_note": null
+      },
+      "emir": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_OTHER: LEI checksum failed (ISO 7064 MOD 97-10)"
+        ],
+        "special_note": null
+      },
+      "upi_info": {
+        "status": "FOUND",
+        "matched_template": "Credit.Swap.Corporate.UPI.V1",
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "Credit",
+        "instrument_type": "Swap",
+        "use_case": "Corporate",
+        "platform": "VOICE",
+        "cleared": false
+      }
+    },
+    {
+      "trade_id": "T003",
+      "cftc": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_OTHER: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "UPI_NOT_FOUND"
+        ],
+        "special_note": null
+      },
+      "emir": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_OTHER: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "UPI_NOT_FOUND",
+          "MISSING_COLLATERAL_CODE",
+          "MISSING_INITIAL_MARGIN",
+          "MISSING_VARIATION_MARGIN"
+        ],
+        "special_note": null
+      },
+      "upi_info": {
+        "status": "NOT_FOUND",
+        "matched_template": null,
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "FX",
+        "instrument_type": "Forward",
+        "use_case": "NDF",
+        "platform": "VOICE",
+        "cleared": false
+      }
+    },
+    {
+      "trade_id": "T004",
+      "cftc": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "UPI_NOT_FOUND"
+        ],
+        "special_note": null
+      },
+      "emir": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "UPI_NOT_FOUND",
+          "MISSING_COLLATERAL_CODE",
+          "MISSING_INITIAL_MARGIN",
+          "MISSING_VARIATION_MARGIN"
+        ],
+        "special_note": null
+      },
+      "upi_info": {
+        "status": "NOT_FOUND",
+        "matched_template": null,
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "Equity",
+        "instrument_type": "Option",
+        "use_case": "SingleName_Put",
+        "platform": "VOICE",
+        "cleared": false
+      }
+    },
+    {
+      "trade_id": "T005",
+      "cftc": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_REPORTING: LEI checksum failed (ISO 7064 MOD 97-10)"
+        ],
+        "special_note": null
+      },
+      "emir": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_REPORTING: LEI checksum failed (ISO 7064 MOD 97-10)"
+        ],
+        "special_note": null
+      },
+      "upi_info": {
+        "status": "FOUND",
+        "matched_template": "Rates.Swap.Cross_Currency_Fixed_Float.UPI.V1",
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "Rates",
+        "instrument_type": "Swap",
+        "use_case": "Fixed_Float",
+        "platform": "SEF",
+        "cleared": true
+      }
+    },
+    {
+      "trade_id": "T006",
+      "cftc": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "MISSING_OR_INVALID_UTI: UTI is missing (null)",
+          "INVALID_LEI_REPORTING: LEI checksum failed (ISO 7064 MOD 97-10)"
+        ],
+        "special_note": null
+      },
+      "emir": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "MISSING_OR_INVALID_UTI: UTI is missing (null)",
+          "INVALID_LEI_REPORTING: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "MISSING_COLLATERAL_CODE",
+          "MISSING_INITIAL_MARGIN",
+          "MISSING_VARIATION_MARGIN"
+        ],
+        "special_note": null
+      },
+      "upi_info": {
+        "status": "FOUND",
+        "matched_template": "Rates.Swap.Basis.UPI.V1",
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "Rates",
+        "instrument_type": "Swap",
+        "use_case": "Basis",
+        "platform": "VOICE",
+        "cleared": false
+      }
+    },
+    {
+      "trade_id": "T007",
+      "cftc": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_REPORTING: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "UPI_NOT_FOUND"
+        ],
+        "special_note": null
+      },
+      "emir": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_REPORTING: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "UPI_NOT_FOUND",
+          "MISSING_COLLATERAL_CODE",
+          "MISSING_INITIAL_MARGIN",
+          "MISSING_VARIATION_MARGIN"
+        ],
+        "special_note": null
+      },
+      "upi_info": {
+        "status": "NOT_FOUND",
+        "matched_template": null,
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "Commodities",
+        "instrument_type": "Swap",
+        "use_case": "SingleName",
+        "platform": "VOICE",
+        "cleared": false
+      }
+    },
+    {
+      "trade_id": "T008",
+      "cftc": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_REPORTING: LEI checksum failed (ISO 7064 MOD 97-10)"
+        ],
+        "special_note": null
+      },
+      "emir": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_REPORTING: LEI checksum failed (ISO 7064 MOD 97-10)"
+        ],
+        "special_note": null
+      },
+      "upi_info": {
+        "status": "FOUND",
+        "matched_template": "Rates.Option.Swaption.UPI.V1",
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "Rates",
+        "instrument_type": "Option",
+        "use_case": "Swaption",
+        "platform": "VOICE",
+        "cleared": false
+      }
+    },
+    {
+      "trade_id": "T009",
+      "cftc": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_OTHER: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "INVALID_NOTIONAL: Invalid currency: INVALID_CCY",
+          "UPI_NOT_FOUND"
+        ],
+        "special_note": null
+      },
+      "emir": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_OTHER: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "INVALID_NOTIONAL: Invalid currency: INVALID_CCY",
+          "UPI_NOT_FOUND",
+          "MISSING_COLLATERAL_CODE",
+          "MISSING_INITIAL_MARGIN",
+          "MISSING_VARIATION_MARGIN"
+        ],
+        "special_note": null
+      },
+      "upi_info": {
+        "status": "NOT_FOUND",
+        "matched_template": null,
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "FX",
+        "instrument_type": "Option",
+        "use_case": "Vanilla",
+        "platform": "VOICE",
+        "cleared": false
+      }
+    },
+    {
+      "trade_id": "T010",
+      "cftc": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_OTHER: LEI checksum failed (ISO 7064 MOD 97-10)"
+        ],
+        "special_note": null
+      },
+      "emir": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_OTHER: LEI checksum failed (ISO 7064 MOD 97-10)"
+        ],
+        "special_note": null
+      },
+      "upi_info": {
+        "status": "FOUND",
+        "matched_template": "Credit.Option.Index_Swaption.UPI.V1",
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "Credit",
+        "instrument_type": "Swap",
+        "use_case": "Index",
+        "platform": "SEF",
+        "cleared": true
+      }
+    },
+    {
+      "trade_id": "T011",
+      "cftc": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_OTHER: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "INVALID_NOTIONAL: Notional amount is missing",
+          "UPI_NOT_FOUND"
+        ],
+        "special_note": null
+      },
+      "emir": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_OTHER: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "INVALID_NOTIONAL: Notional amount is missing",
+          "UPI_NOT_FOUND"
+        ],
+        "special_note": null
+      },
+      "upi_info": {
+        "status": "NOT_FOUND",
+        "matched_template": null,
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "Rates",
+        "instrument_type": "Swap",
+        "use_case": "CrossCurrency",
+        "platform": "VOICE",
+        "cleared": false
+      }
+    },
+    {
+      "trade_id": "T012",
+      "cftc": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_REPORTING: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "UPI_NOT_FOUND"
+        ],
+        "special_note": null
+      },
+      "emir": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_REPORTING: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "UPI_NOT_FOUND"
+        ],
+        "special_note": null
+      },
+      "upi_info": {
+        "status": "NOT_FOUND",
+        "matched_template": null,
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "Equity",
+        "instrument_type": "Swap",
+        "use_case": "TotalReturn_SingleIndex",
+        "platform": "VOICE",
+        "cleared": false
+      }
+    },
+    {
+      "trade_id": "T013",
+      "cftc": {
+        "status": "COMPLIANT",
+        "violations": [],
+        "special_note": null
+      },
+      "emir": {
+        "status": "COMPLIANT",
+        "violations": [],
+        "special_note": null
+      },
+      "upi_info": {
+        "status": "FOUND",
+        "matched_template": "Rates.Swap.Cross_Currency_Inflation_Swap.UPI.V1",
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "Rates",
+        "instrument_type": "Swap",
+        "use_case": "Inflation",
+        "platform": "VOICE",
+        "cleared": false
+      }
+    },
+    {
+      "trade_id": "T014",
+      "cftc": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_REPORTING: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "INVALID_LEI_OTHER: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "UPI_NOT_FOUND"
+        ],
+        "special_note": null
+      },
+      "emir": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_REPORTING: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "INVALID_LEI_OTHER: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "UPI_NOT_FOUND",
+          "MISSING_COLLATERAL_CODE",
+          "MISSING_INITIAL_MARGIN",
+          "MISSING_VARIATION_MARGIN"
+        ],
+        "special_note": null
+      },
+      "upi_info": {
+        "status": "NOT_FOUND",
+        "matched_template": null,
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "FX",
+        "instrument_type": "Swap",
+        "use_case": "Standard",
+        "platform": "VOICE",
+        "cleared": false
+      }
+    },
+    {
+      "trade_id": "T015",
+      "cftc": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_REPORTING: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "UPI_NOT_FOUND"
+        ],
+        "special_note": null
+      },
+      "emir": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_REPORTING: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "UPI_NOT_FOUND"
+        ],
+        "special_note": null
+      },
+      "upi_info": {
+        "status": "NOT_FOUND",
+        "matched_template": null,
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "Rates",
+        "instrument_type": "Cap_Floor",
+        "use_case": "Cap",
+        "platform": "VOICE",
+        "cleared": false
+      }
+    },
+    {
+      "trade_id": "T016",
+      "cftc": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_REPORTING: LEI checksum failed (ISO 7064 MOD 97-10)"
+        ],
+        "special_note": null
+      },
+      "emir": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_REPORTING: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "MISSING_COLLATERAL_CODE",
+          "MISSING_INITIAL_MARGIN",
+          "MISSING_VARIATION_MARGIN"
+        ],
+        "special_note": null
+      },
+      "upi_info": {
+        "status": "FOUND",
+        "matched_template": "Equity.Swap.Parameter_Return_Variance_Basket.UPI.V1",
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "Equity",
+        "instrument_type": "Swap",
+        "use_case": "Variance",
+        "platform": "VOICE",
+        "cleared": false
+      }
+    },
+    {
+      "trade_id": "T017",
+      "cftc": {
+        "status": "COMPLIANT",
+        "violations": [],
+        "special_note": null
+      },
+      "emir": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "MISSING_COLLATERAL_CODE",
+          "MISSING_INITIAL_MARGIN",
+          "MISSING_VARIATION_MARGIN"
+        ],
+        "special_note": null
+      },
+      "upi_info": {
+        "status": "FOUND",
+        "matched_template": "Credit.Swap.Sovereign.UPI.V1",
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "Credit",
+        "instrument_type": "Swap",
+        "use_case": "Sovereign",
+        "platform": "VOICE",
+        "cleared": false
+      }
+    },
+    {
+      "trade_id": "T018",
+      "cftc": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_OTHER: LEI checksum failed (ISO 7064 MOD 97-10)"
+        ],
+        "special_note": null
+      },
+      "emir": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_OTHER: LEI checksum failed (ISO 7064 MOD 97-10)"
+        ],
+        "special_note": null
+      },
+      "upi_info": {
+        "status": "FOUND",
+        "matched_template": "Rates.Swap.Basis_OIS.UPI.V1",
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "Rates",
+        "instrument_type": "Swap",
+        "use_case": "OIS",
+        "platform": "SEF",
+        "cleared": true
+      }
+    },
+    {
+      "trade_id": "T019",
+      "cftc": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_REPORTING: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "UPI_NOT_FOUND"
+        ],
+        "special_note": null
+      },
+      "emir": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_REPORTING: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "UPI_NOT_FOUND",
+          "MISSING_COLLATERAL_CODE",
+          "MISSING_INITIAL_MARGIN",
+          "MISSING_VARIATION_MARGIN"
+        ],
+        "special_note": null
+      },
+      "upi_info": {
+        "status": "NOT_FOUND",
+        "matched_template": null,
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "Commodities",
+        "instrument_type": "Option",
+        "use_case": "SingleName",
+        "platform": "VOICE",
+        "cleared": false
+      }
+    },
+    {
+      "trade_id": "T020",
+      "cftc": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_REPORTING: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "INVALID_LEI_OTHER: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "UPI_NOT_FOUND"
+        ],
+        "special_note": null
+      },
+      "emir": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_REPORTING: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "INVALID_LEI_OTHER: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "UPI_NOT_FOUND",
+          "MISSING_COLLATERAL_CODE",
+          "MISSING_INITIAL_MARGIN",
+          "MISSING_VARIATION_MARGIN"
+        ],
+        "special_note": null
+      },
+      "upi_info": {
+        "status": "NOT_FOUND",
+        "matched_template": null,
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "FX",
+        "instrument_type": "Option",
+        "use_case": "Barrier",
+        "platform": "VOICE",
+        "cleared": false
+      }
+    },
+    {
+      "trade_id": "T021",
+      "cftc": {
+        "status": "COMPLIANT",
+        "violations": [],
+        "special_note": null
+      },
+      "emir": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "MISSING_COLLATERAL_CODE",
+          "MISSING_INITIAL_MARGIN",
+          "MISSING_VARIATION_MARGIN"
+        ],
+        "special_note": null
+      },
+      "upi_info": {
+        "status": "FOUND",
+        "matched_template": "Rates.Swap.Cross_Currency_Fixed_Float.UPI.V1",
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "Rates",
+        "instrument_type": "Swap",
+        "use_case": "Fixed_Float",
+        "platform": "SEF",
+        "cleared": true
+      }
+    },
+    {
+      "trade_id": "T022",
+      "cftc": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_REPORTING: LEI checksum failed (ISO 7064 MOD 97-10)"
+        ],
+        "special_note": null
+      },
+      "emir": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_REPORTING: LEI checksum failed (ISO 7064 MOD 97-10)"
+        ],
+        "special_note": null
+      },
+      "upi_info": {
+        "status": "FOUND",
+        "matched_template": "Credit.Swap.ABS.UPI.V1",
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "Credit",
+        "instrument_type": "Swap",
+        "use_case": "ABS",
+        "platform": "VOICE",
+        "cleared": false
+      }
+    },
+    {
+      "trade_id": "T023",
+      "cftc": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_OTHER: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "UPI_NOT_FOUND"
+        ],
+        "special_note": null
+      },
+      "emir": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_OTHER: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "UPI_NOT_FOUND",
+          "MISSING_COLLATERAL_CODE",
+          "MISSING_INITIAL_MARGIN",
+          "MISSING_VARIATION_MARGIN"
+        ],
+        "special_note": null
+      },
+      "upi_info": {
+        "status": "NOT_FOUND",
+        "matched_template": null,
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "Equity",
+        "instrument_type": "Forward",
+        "use_case": "SingleName",
+        "platform": "VOICE",
+        "cleared": false
+      }
+    },
+    {
+      "trade_id": "T024",
+      "cftc": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_OTHER: LEI checksum failed (ISO 7064 MOD 97-10)"
+        ],
+        "special_note": null
+      },
+      "emir": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_OTHER: LEI checksum failed (ISO 7064 MOD 97-10)"
+        ],
+        "special_note": null
+      },
+      "upi_info": {
+        "status": "FOUND",
+        "matched_template": "Rates.Swap.Cross_Currency_Fixed_Float.UPI.V1",
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "Rates",
+        "instrument_type": "Swap",
+        "use_case": "Fixed_Float",
+        "platform": "SEF",
+        "cleared": true
+      }
+    },
+    {
+      "trade_id": "T025",
+      "cftc": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_OTHER: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "UPI_NOT_FOUND"
+        ],
+        "special_note": null
+      },
+      "emir": {
+        "status": "NONCOMPLIANT",
+        "violations": [
+          "INVALID_LEI_OTHER: LEI checksum failed (ISO 7064 MOD 97-10)",
+          "UPI_NOT_FOUND",
+          "MISSING_COLLATERAL_CODE",
+          "MISSING_INITIAL_MARGIN",
+          "MISSING_VARIATION_MARGIN"
+        ],
+        "special_note": null
+      },
+      "upi_info": {
+        "status": "NOT_FOUND",
+        "matched_template": null,
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "FX",
+        "instrument_type": "Forward",
+        "use_case": "Deliverable",
+        "platform": "VOICE",
+        "cleared": false
+      }
+    },
+    {
+      "trade_id": "T026",
+      "cftc": {
+        "status": "CONDITIONAL",
+        "violations": [],
+        "special_note": "Binary event contract traded on CFTC-regulated DCM (Kalshi). Reporting obligations apply conditionally under Part 43/45. Refer to Module 4 for regulatory classification analysis."
+      },
+      "emir": {
+        "status": "NOT_APPLICABLE",
+        "violations": [],
+        "special_note": "Binary event contracts classified as gambling under GlüStV 2021 framework. Not subject to EMIR trade reporting."
+      },
+      "upi_info": {
+        "status": "NO_PRODUCT_DEFINITION",
+        "matched_template": null,
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "EventContract",
+        "instrument_type": "BinaryEventContract",
+        "use_case": "PoliticalOutcome",
+        "platform": "KALSHI",
+        "cleared": true
+      }
+    },
+    {
+      "trade_id": "T027",
+      "cftc": {
+        "status": "NOT_APPLICABLE",
+        "violations": [],
+        "special_note": "Binary event contract on offshore unregulated platform (Polymarket). No CFTC reporting obligation."
+      },
+      "emir": {
+        "status": "NOT_APPLICABLE",
+        "violations": [],
+        "special_note": "Binary event contracts classified as gambling under GlüStV 2021 framework. Not subject to EMIR trade reporting."
+      },
+      "upi_info": {
+        "status": "NO_PRODUCT_DEFINITION",
+        "matched_template": null,
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "EventContract",
+        "instrument_type": "BinaryEventContract",
+        "use_case": "MacroeconomicOutcome",
+        "platform": "POLYMARKET",
+        "cleared": false
+      }
+    },
+    {
+      "trade_id": "T028",
+      "cftc": {
+        "status": "CONDITIONAL",
+        "violations": [],
+        "special_note": "Binary event contract traded on CFTC-regulated DCM (Kalshi). Reporting obligations apply conditionally under Part 43/45. Refer to Module 4 for regulatory classification analysis."
+      },
+      "emir": {
+        "status": "NOT_APPLICABLE",
+        "violations": [],
+        "special_note": "Binary event contracts classified as gambling under GlüStV 2021 framework. Not subject to EMIR trade reporting."
+      },
+      "upi_info": {
+        "status": "NO_PRODUCT_DEFINITION",
+        "matched_template": null,
+        "upi_code": null
+      },
+      "trade_summary": {
+        "asset_class": "EventContract",
+        "instrument_type": "BinaryEventContract",
+        "use_case": "RegulatoryDecisionOutcome",
+        "platform": "KALSHI",
+        "cleared": true
+      }
+    }
+  ]
+}
