@@ -1,0 +1,299 @@
+[
+  {
+    "trade_id": "T001",
+    "status": "FOUND",
+    "matched_template": "Rates.Swap.Cross_Currency_Fixed_Float.UPI.V1",
+    "upi_code": null,
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T002",
+    "status": "FOUND",
+    "matched_template": "Credit.Swap.Corporate.UPI.V1",
+    "upi_code": null,
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T003",
+    "status": "NOT_FOUND",
+    "matched_template": null,
+    "upi_code": null,
+    "classification_note": "No ANNA-DSB template found for FX/Forward/NDF.",
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T004",
+    "status": "NOT_FOUND",
+    "matched_template": null,
+    "upi_code": null,
+    "classification_note": "No ANNA-DSB template found for Equity/Option/SingleName_Put.",
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T005",
+    "status": "FOUND",
+    "matched_template": "Rates.Swap.Cross_Currency_Fixed_Float.UPI.V1",
+    "upi_code": null,
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T006",
+    "status": "FOUND",
+    "matched_template": "Rates.Swap.Basis.UPI.V1",
+    "upi_code": null,
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T007",
+    "status": "NOT_FOUND",
+    "matched_template": null,
+    "upi_code": null,
+    "classification_note": "No ANNA-DSB template found for Commodities/Swap/SingleName.",
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T008",
+    "status": "FOUND",
+    "matched_template": "Rates.Option.Swaption.UPI.V1",
+    "upi_code": null,
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T009",
+    "status": "NOT_FOUND",
+    "matched_template": null,
+    "upi_code": null,
+    "classification_note": "No ANNA-DSB template found for FX/Option/Vanilla.",
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T010",
+    "status": "FOUND",
+    "matched_template": "Credit.Option.Index_Swaption.UPI.V1",
+    "upi_code": null,
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T011",
+    "status": "NOT_FOUND",
+    "matched_template": null,
+    "upi_code": null,
+    "classification_note": "No ANNA-DSB template found for Rates/Swap/CrossCurrency.",
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T012",
+    "status": "NOT_FOUND",
+    "matched_template": null,
+    "upi_code": null,
+    "classification_note": "No ANNA-DSB template found for Equity/Swap/TotalReturn_SingleIndex.",
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T013",
+    "status": "FOUND",
+    "matched_template": "Rates.Swap.Cross_Currency_Inflation_Swap.UPI.V1",
+    "upi_code": null,
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T014",
+    "status": "NOT_FOUND",
+    "matched_template": null,
+    "upi_code": null,
+    "classification_note": "No ANNA-DSB template found for FX/Swap/Standard.",
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T015",
+    "status": "NOT_FOUND",
+    "matched_template": null,
+    "upi_code": null,
+    "classification_note": "No ANNA-DSB template found for Rates/Cap_Floor/Cap.",
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T016",
+    "status": "FOUND",
+    "matched_template": "Equity.Swap.Parameter_Return_Variance_Basket.UPI.V1",
+    "upi_code": null,
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T017",
+    "status": "FOUND",
+    "matched_template": "Credit.Swap.Sovereign.UPI.V1",
+    "upi_code": null,
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T018",
+    "status": "FOUND",
+    "matched_template": "Rates.Swap.Basis_OIS.UPI.V1",
+    "upi_code": null,
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T019",
+    "status": "NOT_FOUND",
+    "matched_template": null,
+    "upi_code": null,
+    "classification_note": "No ANNA-DSB template found for Commodities/Option/SingleName.",
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T020",
+    "status": "NOT_FOUND",
+    "matched_template": null,
+    "upi_code": null,
+    "classification_note": "No ANNA-DSB template found for FX/Option/Barrier.",
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T021",
+    "status": "FOUND",
+    "matched_template": "Rates.Swap.Cross_Currency_Fixed_Float.UPI.V1",
+    "upi_code": null,
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T022",
+    "status": "FOUND",
+    "matched_template": "Credit.Swap.ABS.UPI.V1",
+    "upi_code": null,
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T023",
+    "status": "NOT_FOUND",
+    "matched_template": null,
+    "upi_code": null,
+    "classification_note": "No ANNA-DSB template found for Equity/Forward/SingleName.",
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T024",
+    "status": "FOUND",
+    "matched_template": "Rates.Swap.Cross_Currency_Fixed_Float.UPI.V1",
+    "upi_code": null,
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T025",
+    "status": "NOT_FOUND",
+    "matched_template": null,
+    "upi_code": null,
+    "classification_note": "No ANNA-DSB template found for FX/Forward/Deliverable.",
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T026",
+    "status": "NO_PRODUCT_DEFINITION",
+    "matched_template": null,
+    "upi_code": null,
+    "classification_note": "Instrument 'BinaryEventContract' (use_case: PoliticalOutcome) under asset class 'EventContract' has no product definition in the ANNA-DSB UPI library. Binary event / prediction contracts are currently outside the OTC derivatives taxonomy in most jurisdictions (EMIR, CFTC Part 43/45). Refer to Module 4 for detailed regulatory classification analysis.",
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T027",
+    "status": "NO_PRODUCT_DEFINITION",
+    "matched_template": null,
+    "upi_code": null,
+    "classification_note": "Instrument 'BinaryEventContract' (use_case: MacroeconomicOutcome) under asset class 'EventContract' has no product definition in the ANNA-DSB UPI library. Binary event / prediction contracts are currently outside the OTC derivatives taxonomy in most jurisdictions (EMIR, CFTC Part 43/45). Refer to Module 4 for detailed regulatory classification analysis.",
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T028",
+    "status": "NO_PRODUCT_DEFINITION",
+    "matched_template": null,
+    "upi_code": null,
+    "classification_note": "Instrument 'BinaryEventContract' (use_case: RegulatoryDecisionOutcome) under asset class 'EventContract' has no product definition in the ANNA-DSB UPI library. Binary event / prediction contracts are currently outside the OTC derivatives taxonomy in most jurisdictions (EMIR, CFTC Part 43/45). Refer to Module 4 for detailed regulatory classification analysis.",
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "C001",
+    "status": "FOUND",
+    "matched_template": "Rates.Swap.Cross_Currency_Fixed_Float.UPI.V1",
+    "upi_code": null,
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "C002",
+    "status": "FOUND",
+    "matched_template": "Credit.Swap.Corporate.UPI.V1",
+    "upi_code": null,
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "C003",
+    "status": "NOT_FOUND",
+    "matched_template": null,
+    "upi_code": null,
+    "classification_note": "No ANNA-DSB template found for FX/Forward/NDF.",
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "C004",
+    "status": "NOT_FOUND",
+    "matched_template": null,
+    "upi_code": null,
+    "classification_note": "No ANNA-DSB template found for Equity/Option/SingleName_Call.",
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "C005",
+    "status": "NO_PRODUCT_DEFINITION",
+    "matched_template": null,
+    "upi_code": null,
+    "classification_note": "Instrument 'BinaryEventContract' (use_case: ClimateOutcome) under asset class 'EventContract' has no product definition in the ANNA-DSB UPI library. Binary event / prediction contracts are currently outside the OTC derivatives taxonomy in most jurisdictions (EMIR, CFTC Part 43/45). Refer to Module 4 for detailed regulatory classification analysis.",
+    "validation_errors": [],
+    "warnings": []
+  }
+]

@@ -1,0 +1,3 @@
+[submodule "Product-Definitions"]
+	path = Product-Definitions
+	url = https://github.com/ANNA-DSB/Product-Definitions.git
